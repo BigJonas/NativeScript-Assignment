@@ -7,5 +7,18 @@
         <TextField text="{{ newText }}" hint="Enter text"/>
         <Button text="Tap to replace text" tap="{{ onSecondButtonTap }}"/>
         <Label text="{{ replaceable }}" class="text-center"/>
+        <!-- I have no clue how to align this to the center -->
+        <TimePicker 
+        hour="10"
+        minute="25"
+        loaded="onPickerLoaded"
+        row="2"
+        col="0"
+        colSpan="0"
+        class="m-15"
+        verticalAlignment="center"
+        />
+        <!-- First image that comes up when searching "an image" -->
+        <Image src="https://www.jonathan-petitcolas.com/img/posts/ascii-art-converter/homer.png" stretch="aspectFill" />
     </StackLayout>
 </Page>
